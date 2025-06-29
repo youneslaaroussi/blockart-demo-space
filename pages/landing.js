@@ -137,7 +137,7 @@ export default function Landing({ story }) {
               </button>
             </div>
           </div>
-                </div>
+        </div>
       </section>
 
       {/* Storyblok Managed Content */}
