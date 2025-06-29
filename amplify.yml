@@ -3,11 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - corepack enable
-        - yarn install
+        - npm ci
     build:
       commands:
-        - yarn build
+        - npm run build
   artifacts:
     baseDirectory: .next
     files:
